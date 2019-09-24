@@ -109,7 +109,26 @@ class SHA3Digest extends BaseDigest implements Digest {
     _doUpdate(inp, inpOff, len * 8);
   }
 
+  // https://github.com/PointyCastle/pointycastle/issues/128
+  void absorbBits(int data, int bits) {
+    if (bits < 1 || bits > 7) {
+      throw new StateError("'bits' must be in the range 1 to 7");
+    }
+    if ((_bitsInQueue % 8) != 0) {
+      throw new StateError("attempt to absorb with odd length queue");
+    }
+    if (_squeezing) {
+      throw new StateError("attempt to absorb while squeezing");
+    }
+ 
+    int mask = (1 << bits) - 1;
+    _dataQueue[_bitsInQueue >> 3] = data & mask;
+    _bitsInQueue += bits;
+  }
+  
   int doFinal(Uint8List out, int outOff) {
+    absorbBits(0x02, 2);
+    
     _squeeze(out, outOff, _fixedOutputLength);
 
     reset();
