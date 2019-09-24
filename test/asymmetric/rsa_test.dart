@@ -4,7 +4,7 @@
 
 library pointycastle.test.asymmetric.rsa_test;
 
-import "package:pointycastle/pointycastle.dart";
+import "package:pointycastle_base/pointycastle.dart";
 
 import '../test/asymmetric_block_cipher_tests.dart';
 

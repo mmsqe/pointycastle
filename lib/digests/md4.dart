@@ -6,10 +6,10 @@ library pointycastle.impl.digest.md4;
 
 import "dart:typed_data";
 
-import "package:pointycastle/api.dart";
-import "package:pointycastle/src/impl/md4_family_digest.dart";
-import "package:pointycastle/src/registry/registry.dart";
-import "package:pointycastle/src/ufixnum.dart";
+import "package:pointycastle_base/api.dart";
+import "package:pointycastle_base/src/impl/md4_family_digest.dart";
+import "package:pointycastle_base/src/registry/registry.dart";
+import "package:pointycastle_base/src/ufixnum.dart";
 
 /// Implementation of MD4 digest
 class MD4Digest extends MD4FamilyDigest implements Digest {

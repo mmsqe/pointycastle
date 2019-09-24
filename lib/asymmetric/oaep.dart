@@ -7,11 +7,11 @@ library pointycastle.impl.asymmetric_block_cipher.oeap;
 import "dart:typed_data";
 import "dart:math";
 
-import "package:pointycastle/api.dart";
-import "package:pointycastle/src/registry/registry.dart";
-import "package:pointycastle/src/impl/base_asymmetric_block_cipher.dart";
-import "package:pointycastle/random/fortuna_random.dart";
-import "package:pointycastle/digests/sha1.dart";
+import "package:pointycastle_base/api.dart";
+import "package:pointycastle_base/src/registry/registry.dart";
+import "package:pointycastle_base/src/impl/base_asymmetric_block_cipher.dart";
+import "package:pointycastle_base/random/fortuna_random.dart";
+import "package:pointycastle_base/digests/sha1.dart";
 
 class OAEPEncoding extends BaseAsymmetricBlockCipher {
   /// Intended for internal use.

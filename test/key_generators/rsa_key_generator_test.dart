@@ -4,7 +4,7 @@
 
 library pointycastle.test.key_generators.rsa_key_generator_test;
 
-import 'package:pointycastle/pointycastle.dart';
+import 'package:pointycastle_base/pointycastle.dart';
 
 import "../test/src/fixed_secure_random.dart";
 import '../test/key_generators_tests.dart';

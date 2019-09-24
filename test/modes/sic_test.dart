@@ -6,8 +6,8 @@ library pointycastle.test.modes.sic_test;
 
 import "dart:typed_data";
 
-import "package:pointycastle/pointycastle.dart";
-import 'package:pointycastle/src/registry/registry.dart';
+import "package:pointycastle_base/pointycastle.dart";
+import 'package:pointycastle_base/src/registry/registry.dart';
 import "package:test/test.dart";
 
 import "../test/block_cipher_tests.dart";

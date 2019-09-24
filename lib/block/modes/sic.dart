@@ -4,10 +4,10 @@
 
 library pointycastle.impl.block_cipher.modes.sic;
 
-import "package:pointycastle/api.dart";
-import "package:pointycastle/adapters/stream_cipher_as_block_cipher.dart";
-import "package:pointycastle/stream/sic.dart";
-import "package:pointycastle/src/registry/registry.dart";
+import "package:pointycastle_base/api.dart";
+import "package:pointycastle_base/adapters/stream_cipher_as_block_cipher.dart";
+import "package:pointycastle_base/stream/sic.dart";
+import "package:pointycastle_base/src/registry/registry.dart";
 
 /**
  * See [SICStreamCipher].

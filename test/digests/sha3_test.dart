@@ -4,7 +4,7 @@
 
 library pointycastle.test.digests.sha3_test;
 
-import "package:pointycastle/pointycastle.dart";
+import "package:pointycastle_base/pointycastle.dart";
 
 import "../test/digest_tests.dart";
 

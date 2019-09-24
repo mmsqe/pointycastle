@@ -4,8 +4,8 @@
 
 library pointycastle.src.registry;
 
-import "package:pointycastle/api.dart";
-import 'package:pointycastle/src/registry/registration.dart';
+import "package:pointycastle_base/api.dart";
+import 'package:pointycastle_base/src/registry/registration.dart';
 
 final FactoryRegistry registry = _RegistryImpl();
 

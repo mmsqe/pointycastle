@@ -99,7 +99,7 @@ the algorithm shorthands like given in the list above.  It also makes it possibl
 to seamlessly chain different algorithms together.  For example:
 
 ```dart
-import "package:pointycastle/pointycastle.dart";
+import "package:pointycastle_base/pointycastle.dart";
 
 void main() {
   Digest sha256 = new Digest("SHA-256");
@@ -117,13 +117,13 @@ use the classes directly, or still use the registry.  But remember that the
 registry only contains the classes that you import.  For example:
 
 ```dart
-import "package:pointycastle/api.dart";
+import "package:pointycastle_base/api.dart";
 
-import "package:pointycastle/digests/sha256.dart";
+import "package:pointycastle_base/digests/sha256.dart";
 
-import "package:pointycastle/digests/sha1.dart";
-import "package:pointycastle/macs/hmac.dart";
-import "package:pointycastle/key_derivators/pbkdf2.dart";
+import "package:pointycastle_base/digests/sha1.dart";
+import "package:pointycastle_base/macs/hmac.dart";
+import "package:pointycastle_base/key_derivators/pbkdf2.dart";
 
 void main() {
   Digest sha256 = new SHA256Digest();
@@ -142,9 +142,9 @@ void main() {
 
 ## Libraries
 
- * `package:pointycastle/pointycastle.dart`: exports the high-level API and the
+ * `package:pointycastle_base/pointycastle.dart`: exports the high-level API and the
     registry loaded with all available implementations
- * `package:pointycastle/api.dart`: exports the high-level API and the registry
+ * `package:pointycastle_base/api.dart`: exports the high-level API and the registry
     without any implementations
- * `package:pointycastle/export.dart`: exports the API and all implementation
+ * `package:pointycastle_base/export.dart`: exports the API and all implementation
     classes

@@ -6,7 +6,7 @@ library pointycastle.benchmark.block.aes_fast_benchmark;
 
 import "dart:typed_data";
 
-import "package:pointycastle/pointycastle.dart";
+import "package:pointycastle_base/pointycastle.dart";
 
 import "../benchmark/block_cipher_benchmark.dart";
 

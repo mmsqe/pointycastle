@@ -6,7 +6,7 @@ library pointycastle.test.stream.salsa20_test;
 
 import "dart:typed_data";
 
-import "package:pointycastle/pointycastle.dart";
+import "package:pointycastle_base/pointycastle.dart";
 
 import "../test/stream_cipher_tests.dart";
 

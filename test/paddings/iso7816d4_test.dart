@@ -4,7 +4,7 @@
 
 library pointycastle.test.paddings.iso7816d4_test;
 
-import "package:pointycastle/pointycastle.dart";
+import "package:pointycastle_base/pointycastle.dart";
 
 import "../test/padding_tests.dart";
 import "../test/src/helpers.dart";

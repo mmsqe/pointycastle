@@ -6,10 +6,10 @@ library pointycastle.impl.digest.whirlpool;
 
 import "dart:typed_data";
 
-import "package:pointycastle/api.dart";
-import "package:pointycastle/src/impl/base_digest.dart";
-import "package:pointycastle/src/registry/registry.dart";
-import "package:pointycastle/src/ufixnum.dart";
+import "package:pointycastle_base/api.dart";
+import "package:pointycastle_base/src/impl/base_digest.dart";
+import "package:pointycastle_base/src/registry/registry.dart";
+import "package:pointycastle_base/src/ufixnum.dart";
 
 /// Implementation of Whirlpool digest.
 class WhirlpoolDigest extends BaseDigest implements Digest {

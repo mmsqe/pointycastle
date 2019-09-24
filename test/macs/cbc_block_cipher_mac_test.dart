@@ -6,7 +6,7 @@ library pointycastle.test.macs.cbc_block_cipher_mac_test;
 
 import "dart:typed_data";
 
-import "package:pointycastle/pointycastle.dart";
+import "package:pointycastle_base/pointycastle.dart";
 
 import "../test/mac_tests.dart";
 import "../test/src/helpers.dart";

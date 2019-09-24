@@ -6,10 +6,10 @@ library pointycastle.impl.stream_cipher.sic;
 
 import "dart:typed_data";
 
-import "package:pointycastle/api.dart";
-import "package:pointycastle/src/impl/base_stream_cipher.dart";
-import "package:pointycastle/src/ufixnum.dart";
-import "package:pointycastle/src/registry/registry.dart";
+import "package:pointycastle_base/api.dart";
+import "package:pointycastle_base/src/impl/base_stream_cipher.dart";
+import "package:pointycastle_base/src/ufixnum.dart";
+import "package:pointycastle_base/src/registry/registry.dart";
 
 /**
  * Implementation of SIC mode of operation as a [StreamCipher]. This implementation uses the IV as the initial nonce value and

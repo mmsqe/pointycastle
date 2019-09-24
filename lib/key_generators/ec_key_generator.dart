@@ -4,10 +4,10 @@
 
 library pointycastle.impl.key_generator.ec_key_generator;
 
-import "package:pointycastle/api.dart";
-import "package:pointycastle/ecc/api.dart";
-import "package:pointycastle/key_generators/api.dart";
-import "package:pointycastle/src/registry/registry.dart";
+import "package:pointycastle_base/api.dart";
+import "package:pointycastle_base/ecc/api.dart";
+import "package:pointycastle_base/key_generators/api.dart";
+import "package:pointycastle_base/src/registry/registry.dart";
 
 /// Abstract [CipherParameters] to init an ECC key generator.
 class ECKeyGenerator implements KeyGenerator {

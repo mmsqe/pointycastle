@@ -6,9 +6,9 @@ library pointycastle.impl.asymmetric_block_cipher.test.null_asymmetric_block_cip
 
 import "dart:typed_data";
 
-import "package:pointycastle/api.dart";
-import "package:pointycastle/src/registry/registry.dart";
-import "package:pointycastle/src/impl/base_asymmetric_block_cipher.dart";
+import "package:pointycastle_base/api.dart";
+import "package:pointycastle_base/src/registry/registry.dart";
+import "package:pointycastle_base/src/impl/base_asymmetric_block_cipher.dart";
 
 /**
  * An implementation of a null [AsymmetricBlockCipher], that is, a cipher that does not encrypt, neither decrypt. It can be used

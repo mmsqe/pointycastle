@@ -6,9 +6,9 @@ library pointycastle.impl.block_cipher.modes.cfb;
 
 import "dart:typed_data";
 
-import "package:pointycastle/api.dart";
-import "package:pointycastle/src/registry/registry.dart";
-import "package:pointycastle/src/impl/base_block_cipher.dart";
+import "package:pointycastle_base/api.dart";
+import "package:pointycastle_base/src/registry/registry.dart";
+import "package:pointycastle_base/src/impl/base_block_cipher.dart";
 
 /// Implementation of Cipher Feedback Mode (CFB) on top of a [BlockCipher].
 class CFBBlockCipher extends BaseBlockCipher {

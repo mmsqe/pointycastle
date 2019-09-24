@@ -7,10 +7,10 @@ library pointycastle.impl.asymmetric_block_cipher.pkcs1;
 import "dart:typed_data";
 import "dart:math";
 
-import "package:pointycastle/api.dart";
-import "package:pointycastle/src/registry/registry.dart";
-import "package:pointycastle/src/impl/base_asymmetric_block_cipher.dart";
-import "package:pointycastle/random/fortuna_random.dart";
+import "package:pointycastle_base/api.dart";
+import "package:pointycastle_base/src/registry/registry.dart";
+import "package:pointycastle_base/src/impl/base_asymmetric_block_cipher.dart";
+import "package:pointycastle_base/random/fortuna_random.dart";
 
 class PKCS1Encoding extends BaseAsymmetricBlockCipher {
   /// Intended for internal use.

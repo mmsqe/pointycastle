@@ -6,14 +6,14 @@ library pointycastle.impl.key_derivator.scrypt;
 
 import "dart:typed_data";
 
-import "package:pointycastle/api.dart";
-import "package:pointycastle/digests/sha256.dart";
-import "package:pointycastle/key_derivators/api.dart";
-import "package:pointycastle/key_derivators/pbkdf2.dart";
-import "package:pointycastle/macs/hmac.dart";
-import "package:pointycastle/src/impl/base_key_derivator.dart";
-import "package:pointycastle/src/registry/registry.dart";
-import "package:pointycastle/src/ufixnum.dart";
+import "package:pointycastle_base/api.dart";
+import "package:pointycastle_base/digests/sha256.dart";
+import "package:pointycastle_base/key_derivators/api.dart";
+import "package:pointycastle_base/key_derivators/pbkdf2.dart";
+import "package:pointycastle_base/macs/hmac.dart";
+import "package:pointycastle_base/src/impl/base_key_derivator.dart";
+import "package:pointycastle_base/src/registry/registry.dart";
+import "package:pointycastle_base/src/ufixnum.dart";
 
 /**
  * Implementation of SCrypt password based key derivation function. See the next link for info on

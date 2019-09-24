@@ -6,7 +6,7 @@ library pointycastle.test.random.block_ctr_random_test;
 
 import "dart:typed_data";
 
-import "package:pointycastle/pointycastle.dart";
+import "package:pointycastle_base/pointycastle.dart";
 
 import "package:test/test.dart";
 

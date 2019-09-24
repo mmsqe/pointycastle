@@ -4,8 +4,8 @@
 
 library pointycastle.test.asymmetric.oaep_test;
 
-import "package:pointycastle/pointycastle.dart";
-import 'package:pointycastle/src/registry/registry.dart';
+import "package:pointycastle_base/pointycastle.dart";
+import 'package:pointycastle_base/src/registry/registry.dart';
 
 import "../test/asymmetric_block_cipher_tests.dart";
 import "../test/src/null_asymmetric_block_cipher.dart";

@@ -4,9 +4,9 @@
 
 library pointycastle.impl.stream_cipher.ctr;
 
-import "package:pointycastle/api.dart";
-import "package:pointycastle/stream/sic.dart";
-import "package:pointycastle/src/registry/registry.dart";
+import "package:pointycastle_base/api.dart";
+import "package:pointycastle_base/stream/sic.dart";
+import "package:pointycastle_base/src/registry/registry.dart";
 
 /// Just an alias to be able to create SIC as CTR
 class CTRStreamCipher extends SICStreamCipher {

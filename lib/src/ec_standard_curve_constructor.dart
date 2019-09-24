@@ -4,9 +4,9 @@
 
 library pointycastle.src.registry.ec_standard_curve_constructor;
 
-import "package:pointycastle/ecc/ecc_base.dart";
-import "package:pointycastle/ecc/ecc_fp.dart" as fp;
-import "package:pointycastle/src/utils.dart" as utils;
+import "package:pointycastle_base/ecc/ecc_base.dart";
+import "package:pointycastle_base/ecc/ecc_fp.dart" as fp;
+import "package:pointycastle_base/src/utils.dart" as utils;
 
 ECDomainParametersImpl constructFpStandardCurve(
     String name, Function constructor,

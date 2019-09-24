@@ -5,7 +5,7 @@
 library pointycastle.test.test.key_derivators_tests;
 
 import "package:test/test.dart";
-import "package:pointycastle/pointycastle.dart";
+import "package:pointycastle_base/pointycastle.dart";
 
 import "./src/helpers.dart";
 

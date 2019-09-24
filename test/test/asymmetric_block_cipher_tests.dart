@@ -5,7 +5,7 @@
 library pointycastle.test.test.asymmetric_block_cipher_tests;
 
 import "package:test/test.dart";
-import "package:pointycastle/pointycastle.dart";
+import "package:pointycastle_base/pointycastle.dart";
 
 import "./src/helpers.dart";
 

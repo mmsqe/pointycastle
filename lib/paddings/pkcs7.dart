@@ -6,10 +6,10 @@ library pointycastle.impl.padding.pkcs7;
 
 import "dart:typed_data";
 
-import "package:pointycastle/api.dart";
-import "package:pointycastle/src/impl/base_padding.dart";
-import "package:pointycastle/src/registry/registry.dart";
-import "package:pointycastle/src/ufixnum.dart";
+import "package:pointycastle_base/api.dart";
+import "package:pointycastle_base/src/impl/base_padding.dart";
+import "package:pointycastle_base/src/registry/registry.dart";
+import "package:pointycastle_base/src/ufixnum.dart";
 
 /// A [Padding] that adds PKCS7/PKCS5 padding to a block.
 class PKCS7Padding extends BasePadding {

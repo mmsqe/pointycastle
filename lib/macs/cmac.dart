@@ -6,11 +6,11 @@ library pointycastle.impl.mac.cmac;
 
 import "dart:typed_data";
 
-import "package:pointycastle/api.dart";
-import "package:pointycastle/src/registry/registry.dart";
-import "package:pointycastle/src/impl/base_mac.dart";
-import "package:pointycastle/paddings/iso7816d4.dart";
-import "package:pointycastle/block/modes/cbc.dart";
+import "package:pointycastle_base/api.dart";
+import "package:pointycastle_base/src/registry/registry.dart";
+import "package:pointycastle_base/src/impl/base_mac.dart";
+import "package:pointycastle_base/paddings/iso7816d4.dart";
+import "package:pointycastle_base/block/modes/cbc.dart";
 
 /**
  * CMAC - as specified at www.nuee.nagoya-u.ac.jp/labs/tiwata/omac/omac.html

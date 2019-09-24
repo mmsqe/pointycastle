@@ -6,7 +6,7 @@ library pointycastle.benchmark.api.ufixnum_benchmark;
 
 import "dart:typed_data";
 
-import "package:pointycastle/src/ufixnum.dart";
+import "package:pointycastle_base/src/ufixnum.dart";
 import "../benchmark/operation_benchmark.dart";
 
 void main() {

@@ -6,8 +6,8 @@ library pointycastle.test.modes.ofb_test;
 
 import "dart:typed_data";
 
-import "package:pointycastle/pointycastle.dart";
-import 'package:pointycastle/src/registry/registry.dart';
+import "package:pointycastle_base/pointycastle.dart";
+import 'package:pointycastle_base/src/registry/registry.dart';
 
 import "../test/block_cipher_tests.dart";
 import "../test/src/null_block_cipher.dart";

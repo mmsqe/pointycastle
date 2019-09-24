@@ -6,7 +6,7 @@ library pointycastle.test.block.aes_fast_test;
 
 import "dart:typed_data";
 
-import "package:pointycastle/pointycastle.dart";
+import "package:pointycastle_base/pointycastle.dart";
 
 import '../test/block_cipher_tests.dart';
 

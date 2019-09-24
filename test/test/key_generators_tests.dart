@@ -5,7 +5,7 @@
 library pointycastle.test.test.key_generators_tests;
 
 import "package:test/test.dart";
-import "package:pointycastle/pointycastle.dart";
+import "package:pointycastle_base/pointycastle.dart";
 
 void runKeyGeneratorTests(
     KeyGenerator keyGenerator, List<AsymmetricKeyPair> expectedKeyPairs) {

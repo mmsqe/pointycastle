@@ -4,8 +4,8 @@
 
 library pointycastle.benchmark.signers.rsa_signer_benchmark;
 
-import "package:pointycastle/pointycastle.dart";
-import "package:pointycastle/signers/rsa_signer.dart";
+import "package:pointycastle_base/pointycastle.dart";
+import "package:pointycastle_base/signers/rsa_signer.dart";
 
 import "../benchmark/signer_benchmark.dart";
 import "../../test/test/src/null_digest.dart";

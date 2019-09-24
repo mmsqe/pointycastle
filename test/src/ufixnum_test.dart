@@ -7,7 +7,7 @@ library pointycastle.src.ufixnum_test;
 import 'dart:typed_data';
 
 import "package:test/test.dart";
-import "package:pointycastle/src/ufixnum.dart";
+import "package:pointycastle_base/src/ufixnum.dart";
 
 void main() {
   group("int8:", () {

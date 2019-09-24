@@ -6,10 +6,10 @@ library pointycastle.impl.digest.ripemd128;
 
 import "dart:typed_data";
 
-import "package:pointycastle/api.dart";
-import "package:pointycastle/src/impl/md4_family_digest.dart";
-import "package:pointycastle/src/registry/registry.dart";
-import "package:pointycastle/src/ufixnum.dart";
+import "package:pointycastle_base/api.dart";
+import "package:pointycastle_base/src/impl/md4_family_digest.dart";
+import "package:pointycastle_base/src/registry/registry.dart";
+import "package:pointycastle_base/src/ufixnum.dart";
 
 /// Implementation of RIPEMD-128 digest
 class RIPEMD128Digest extends MD4FamilyDigest implements Digest {

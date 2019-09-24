@@ -5,9 +5,9 @@ library pointycastle.impl.block_cipher.modes.cbc;
 
 import "dart:typed_data";
 
-import "package:pointycastle/api.dart";
-import "package:pointycastle/src/registry/registry.dart";
-import "package:pointycastle/src/impl/base_block_cipher.dart";
+import "package:pointycastle_base/api.dart";
+import "package:pointycastle_base/src/registry/registry.dart";
+import "package:pointycastle_base/src/impl/base_block_cipher.dart";
 
 /// Implementation of Cipher-Block-Chaining (CBC) mode on top of a [BlockCipher].
 class CBCBlockCipher extends BaseBlockCipher {

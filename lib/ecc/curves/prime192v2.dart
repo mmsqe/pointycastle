@@ -4,10 +4,10 @@
 
 library pointycastle.impl.ec_domain_parameters.prime192v2;
 
-import "package:pointycastle/ecc/api.dart";
-import "package:pointycastle/ecc/ecc_base.dart";
-import "package:pointycastle/src/ec_standard_curve_constructor.dart";
-import "package:pointycastle/src/registry/registry.dart";
+import "package:pointycastle_base/ecc/api.dart";
+import "package:pointycastle_base/ecc/ecc_base.dart";
+import "package:pointycastle_base/src/ec_standard_curve_constructor.dart";
+import "package:pointycastle_base/src/registry/registry.dart";
 
 class ECCurve_prime192v2 extends ECDomainParametersImpl {
   static final FactoryConfig FACTORY_CONFIG = new StaticFactoryConfig(

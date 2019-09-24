@@ -10,5 +10,5 @@
  */
 library pointycastle.pointycastle;
 
-export "package:pointycastle/api.dart";
-export "package:pointycastle/impl.dart";
+export "package:pointycastle_base/api.dart";
+export "package:pointycastle_base/impl.dart";

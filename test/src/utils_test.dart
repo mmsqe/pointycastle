@@ -8,7 +8,7 @@ import "dart:math";
 import "dart:typed_data";
 
 import "package:test/test.dart";
-import "package:pointycastle/src/utils.dart";
+import "package:pointycastle_base/src/utils.dart";
 
 Random random = new Random();
 

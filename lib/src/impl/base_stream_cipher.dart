@@ -6,7 +6,7 @@ library pointycastle.src.impl.base_stream_cipher;
 
 import "dart:typed_data";
 
-import "package:pointycastle/api.dart";
+import "package:pointycastle_base/api.dart";
 
 /// Base implementation of [StreamCipher] which provides shared methods.
 abstract class BaseStreamCipher implements StreamCipher {

@@ -6,7 +6,7 @@ library pointycastle.api.key_derivators;
 
 import "dart:typed_data";
 
-import "package:pointycastle/api.dart";
+import "package:pointycastle_base/api.dart";
 
 /// [CipherParameters] used by PBKDF2.
 class Pbkdf2Parameters extends CipherParameters {

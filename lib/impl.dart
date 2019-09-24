@@ -11,16 +11,16 @@ library pointycastle.impl;
 // cipher implementations
 
 // asymmetric
-export "package:pointycastle/asymmetric/api.dart";
+export "package:pointycastle_base/asymmetric/api.dart";
 
 // This one imports all libraries.
-import "package:pointycastle/export.dart";
+import "package:pointycastle_base/export.dart";
 
 // ecc
-export "package:pointycastle/ecc/api.dart";
+export "package:pointycastle_base/ecc/api.dart";
 
 // key_derivators
-export "package:pointycastle/key_derivators/api.dart";
+export "package:pointycastle_base/key_derivators/api.dart";
 
 // key_generators
-export "package:pointycastle/key_generators/api.dart";
+export "package:pointycastle_base/key_generators/api.dart";

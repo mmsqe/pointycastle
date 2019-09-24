@@ -4,9 +4,9 @@
 
 library pointycastle.impl.secure_random.test.src.fixed_secure_random;
 
-import "package:pointycastle/api.dart";
-import "package:pointycastle/src/impl/secure_random_base.dart";
-import "package:pointycastle/src/registry/registry.dart";
+import "package:pointycastle_base/api.dart";
+import "package:pointycastle_base/src/impl/secure_random_base.dart";
+import "package:pointycastle_base/src/registry/registry.dart";
 
 /// An implementation of [SecureRandom] that return fixed numbers.
 class FixedSecureRandom extends SecureRandomBase {

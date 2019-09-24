@@ -6,9 +6,9 @@ library pointycastle.impl.block_chipher.test.src.null_digest;
 
 import "dart:typed_data";
 
-import "package:pointycastle/api.dart";
-import "package:pointycastle/src/impl/base_digest.dart";
-import "package:pointycastle/src/registry/registry.dart";
+import "package:pointycastle_base/api.dart";
+import "package:pointycastle_base/src/impl/base_digest.dart";
+import "package:pointycastle_base/src/registry/registry.dart";
 
 /**
  * An implementation of a null [Digest], that is, a digest that returns an empty string. It can be
